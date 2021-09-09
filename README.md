@@ -22,7 +22,6 @@ I also downloaded the map of Spain by districts (2018) from INE's site:
 
 I use this map to subset the districts in Catalonia and link the SES indicators with the corresponding district polygons.
 
-
 ## Output
 
 See [ses-ine.R](ses-ine.R) for details on the data cleaning and wrangling.
