@@ -1,5 +1,13 @@
 # Area-Level SES Indicators from INE
 
+## Data
+
+---
+**NOTE**
+
+The folder `data/` is not tracked by git due to the file size limit of GitHub.
+---
+
 The original data is available at INE's website:
 
 <https://www.ine.es/experimental/atlas/exp_atlas_tab.htm>
@@ -12,15 +20,18 @@ I downloaded the ZIP files for:
 
 Each folder has several files with the data in different formats and shapes. I used the CSV called `csv_bdsc.csv` from each folder and named them, respectively:
 
-* [income.csv](data/income_raw.csv)
+* [data/income.csv](data/income_raw.csv)
 
-* [gini.csv](data/gini_raw.csv)
+* [data/gini.csv](data/gini_raw.csv)
 
 I also downloaded the map of Spain by districts (2018) from INE's site:
 
 <https://www.ine.es/ss/Satellite?L=es_ES&c=Page&cid=1259952026632&p=1259952026632&pagename=ProductosYServicios%2FPYSLayout>
 
+I placed the corresponding SHAPE files in `data/maps/ine/`.
+
 I use this map to subset the districts in Catalonia and link the SES indicators with the corresponding district polygons.
+
 
 ## Output
 
