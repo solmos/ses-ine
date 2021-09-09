@@ -2,11 +2,7 @@
 
 ## Data
 
----
-**NOTE**
-
-The folder `data/` is not tracked by git due to the file size limit of GitHub.
----
+>**NOTE**: The folder `data/` is not tracked by git due to the file size limit of GitHub.
 
 The original data is available at INE's website:
 
